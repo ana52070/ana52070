@@ -1,0 +1,27 @@
+name: Update Latest Blog Posts
+
+on:
+  schedule:
+    # 每天 UTC 01:00 运行（北京时间 09:00）
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pull latest posts from chuiyu.wiki
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          # ⚠️ 请把下面 URL 换成你的 Wiki 实际 RSS 地址
+          # 常见路径：/feed.xml  /rss.xml  /atom.xml  /feed
+          feed_list: "https://chuiyu.wiki/feed.xml"
+          max_post_count: 5
+          template: "- [$title]($url) <sub>$date</sub>"
+          date_format: "yyyy-MM-dd"
+          commit_message: "chore: update latest blog posts"
