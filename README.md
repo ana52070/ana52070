@@ -120,9 +120,7 @@
 
 ### `~/latest-from-wiki`
 
-<!-- BLOG-POST-LIST:START -->
-<!-- 此部分由 .github/workflows/blog-post-workflow.yml 每天从 chuiyu.wiki 的 RSS 自动更新 -->
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [backend-log](https://chuiyu.wiki/guide/claude-code/backend-log.html) <sub>2026-00-08</sub>- [daily-learning-log](https://chuiyu.wiki/guide/claude-code/daily-learning-log.html) <sub>2026-00-08</sub>- [Wed Apr 08 2026 00:00:00 GMT+0000 &lpar;Coordinated Universal Time&rpar;](https://chuiyu.wiki/guide/claude-code/daily/2026-04-08.html) <sub>2026-00-08</sub>- [topics](https://chuiyu.wiki/guide/claude-code/topics.html) <sub>2026-00-08</sub>- [具身智能--体育馆机器人项目](https://chuiyu.wiki/projects/ROS2项目/具身智能--体育馆机器人项目.html) <sub>2026-00-05</sub><!-- BLOG-POST-LIST:END -->
 
 📖 更多：[chuiyu.wiki](https://chuiyu.wiki)
 
