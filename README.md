@@ -120,7 +120,7 @@
 
 ### `~/latest-from-wiki`
 
-<!-- BLOG-POST-LIST:START -->- [backend-log](https://chuiyu.wiki/guide/claude-code/backend-log.html) <sub>2026-00-08</sub>- [daily-learning-log](https://chuiyu.wiki/guide/claude-code/daily-learning-log.html) <sub>2026-00-08</sub>- [Wed Apr 08 2026 00:00:00 GMT+0000 &lpar;Coordinated Universal Time&rpar;](https://chuiyu.wiki/guide/claude-code/daily/2026-04-08.html) <sub>2026-00-08</sub>- [topics](https://chuiyu.wiki/guide/claude-code/topics.html) <sub>2026-00-08</sub>- [具身智能--体育馆机器人项目](https://chuiyu.wiki/projects/ROS2项目/具身智能--体育馆机器人项目.html) <sub>2026-00-05</sub><!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [7.驱动层运行系统报告](https://chuiyu.wiki/guide/大车-CarPlanning/7.驱动层运行系统报告.html) <sub>2026-00-29</sub>- [7.驱动层运行系统报告](https://chuiyu.wiki/guide/大车-CarPlanning/8.中期审视项目-拆分.html) <sub>2026-00-29</sub>- [backend-log](https://chuiyu.wiki/guide/claude-code/backend-log.html) <sub>2026-00-08</sub>- [daily-learning-log](https://chuiyu.wiki/guide/claude-code/daily-learning-log.html) <sub>2026-00-08</sub>- [Wed Apr 08 2026 00:00:00 GMT+0000 &lpar;Coordinated Universal Time&rpar;](https://chuiyu.wiki/guide/claude-code/daily/2026-04-08.html) <sub>2026-00-08</sub><!-- BLOG-POST-LIST:END -->
 
 📖 更多：[chuiyu.wiki](https://chuiyu.wiki)
 
