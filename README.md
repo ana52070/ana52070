@@ -120,7 +120,7 @@
 
 ### `~/latest-from-wiki`
 
-<!-- BLOG-POST-LIST:START -->- [11.校园智巡 — 近一周进度汇报](https://chuiyu.wiki/guide/大车-CarPlanning/11.校园智巡 — 近一周进度汇报.html) <sub>2026-00-02</sub>- [支线：5.Jetson Xavier NX — USB 串口设备固定绑定指南](https://chuiyu.wiki/guide/大车-CarPlanning/支线：5.Jetson Xavier NX — USB 串口设备固定绑定指南.html) <sub>2026-00-02</sub>- [10.校园智巡 Nav Console — 部署与启动手册](https://chuiyu.wiki/guide/大车-CarPlanning/10.校园智巡 Nav Console — 部署与启动手册.html) <sub>2026-00-01</sub>- [9.ROS2 Humble 跨设备 DDS 组播通信配置指南](https://chuiyu.wiki/guide/大车-CarPlanning/9.ROS2 Humble 跨设备 DDS 组播通信配置指南.html) <sub>2026-00-01</sub>- [7.驱动层运行系统报告](https://chuiyu.wiki/guide/大车-CarPlanning/7.驱动层运行系统报告.html) <sub>2026-00-29</sub><!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [CLAUDE](https://chuiyu.wiki/guide/大车-CarPlanning/CLAUDE.html) <sub>2026-31-17</sub>- [12.校园智巡 — 近一周进度汇报](https://chuiyu.wiki/guide/大车-CarPlanning/12.校园智巡 — 近一周进度汇报.html) <sub>2026-00-16</sub>- [DDDMR Navigation 学习 + 复现 + 实车部署 路线](https://chuiyu.wiki/guide/DDRMR_Navigation/DDDMR Navigation 学习 + 复现 + 实车部署 路线.html) <sub>2026-00-14</sub>- [11.校园智巡 — 近一周进度汇报](https://chuiyu.wiki/guide/大车-CarPlanning/11.校园智巡 — 近一周进度汇报.html) <sub>2026-00-02</sub>- [支线：5.Jetson Xavier NX — USB 串口设备固定绑定指南](https://chuiyu.wiki/guide/大车-CarPlanning/支线：5.Jetson Xavier NX — USB 串口设备固定绑定指南.html) <sub>2026-00-02</sub><!-- BLOG-POST-LIST:END -->
 
 📖 更多：[chuiyu.wiki](https://chuiyu.wiki)
 
