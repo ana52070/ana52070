@@ -120,7 +120,7 @@
 
 ### `~/latest-from-wiki`
 
-<!-- BLOG-POST-LIST:START -->- [CLAUDE](https://chuiyu.wiki/guide/大车-CarPlanning/CLAUDE.html) <sub>2026-31-17</sub>- [12.校园智巡 — 近一周进度汇报](https://chuiyu.wiki/guide/大车-CarPlanning/12.校园智巡 — 近一周进度汇报.html) <sub>2026-00-16</sub>- [DDDMR Navigation 学习 + 复现 + 实车部署 路线](https://chuiyu.wiki/guide/DDRMR_Navigation/DDDMR Navigation 学习 + 复现 + 实车部署 路线.html) <sub>2026-00-14</sub>- [11.校园智巡 — 近一周进度汇报](https://chuiyu.wiki/guide/大车-CarPlanning/11.校园智巡 — 近一周进度汇报.html) <sub>2026-00-02</sub>- [支线：5.Jetson Xavier NX — USB 串口设备固定绑定指南](https://chuiyu.wiki/guide/大车-CarPlanning/支线：5.Jetson Xavier NX — USB 串口设备固定绑定指南.html) <sub>2026-00-02</sub><!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [CLAUDE](https://chuiyu.wiki/guide/大车-CarPlanning/CLAUDE.html) <sub>2026-45-21</sub>- [13.项目概述：RTK + LiDAR 里程计无地图自主导航系统（v2）](https://chuiyu.wiki/guide/大车-CarPlanning/13.项目概述：RTK + LiDAR 里程计无地图自主导航系统（v2）.html) <sub>2026-00-21</sub>- [14.FAST-LIO2 详解：在校园智巡项目中的角色](https://chuiyu.wiki/guide/大车-CarPlanning/14.FAST-LIO2 详解：在校园智巡项目中的角色.html) <sub>2026-00-21</sub>- [15.任务计划：校园智巡 v2 升级路线图](https://chuiyu.wiki/guide/大车-CarPlanning/15.任务计划：校园智巡 v2 升级路线图.html) <sub>2026-00-21</sub>- [支线：6.FASTLIO2_ROS2 完整部署教程](https://chuiyu.wiki/guide/大车-CarPlanning/支线：6.FASTLIO2_ROS2 完整部署教程.html) <sub>2026-00-21</sub><!-- BLOG-POST-LIST:END -->
 
 📖 更多：[chuiyu.wiki](https://chuiyu.wiki)
 
