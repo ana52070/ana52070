@@ -1,56 +1,13 @@
-# CLAUDE.md
+# 项目说明
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+本仓库用于 GitHub 个人展示，主要文件是 README.md 和 assets/chuiyu-cover.png。
 
-## Project Overview
+所有文档使用简体中文，个人署名固定为 Chuiyu。
 
-This is a **GitHub profile repository** (`ana52070/ana52070`) — a special repo whose `README.md` is displayed on the user's GitHub profile page. The owner is a CS student (Tianjin University of Technology) focused on embedded systems, ROS2, and LLM-on-hardware.
+设计采用暖色手绘编辑风：燕麦色背景、象牙白形块、黑色线条和少量陶土橙。正文保留 GitHub 原生文字与链接，保持移动端可读性。
 
-There are no build steps, tests, or lint commands. The "code" here is Markdown and YAML workflows.
+精选作品为 MCP_Control_STM32、carplanning_code、chuiyu_Wiki。更换作品前核实仓库内容，不虚构经历或成果。
 
-## File Structure
+仓库没有构建步骤。改动后检查图片存在、链接正确、Markdown 可读；不要重新引入旧版统计卡片、徽章墙、贪吃蛇和 RSS 自动更新。
 
-```
-ana52070/
-├── README.md                      # GitHub profile display (main file)
-├── SETUP.md                       # Deployment guide (not displayed on profile)
-└── .github/workflows/             # Must be placed here on the actual GitHub repo
-    ├── snake.yml                  # Generates contribution snake SVGs → pushed to `output` branch
-    └── blog-post-workflow.yml     # Fetches RSS from chuiyu.wiki → updates README
-```
-
-> Note: The workflow files are currently at repo root (`snake.yml`, `blog-post-workflow.yml`). They must be moved to `.github/workflows/` on GitHub to function.
-
-## GitHub Actions Workflows
-
-### snake.yml
-- Runs daily at UTC 00:00 (Beijing 08:00) and on every push to `main`
-- Uses `Platane/snk/svg-only@v3` to generate two SVGs (light + dark theme)
-- Pushes output to the `output` branch via `crazy-max/ghaction-github-pages@v4`
-- Requires repo **Settings → Actions → General → Workflow permissions** set to "Read and write permissions"
-
-### blog-post-workflow.yml
-- Runs daily at UTC 01:00 (Beijing 09:00)
-- Uses `gautamkrishnar/blog-post-workflow@v1` to fetch RSS from `https://chuiyu.wiki/feed.xml`
-- Updates the `<!-- BLOG-POST-LIST:START -->` / `<!-- BLOG-POST-LIST:END -->` markers in README.md
-- To change the RSS source, edit the `feed_list` field in the workflow file
-
-## README.md Architecture
-
-The README uses HTML + Markdown with external badge/stats services. Key dynamic sections:
-
-| Section | How it updates |
-|---|---|
-| Contribution snake (`~/contribution-graph`) | `snake.yml` action → SVGs in `output` branch |
-| Blog posts (`~/latest-from-wiki`) | `blog-post-workflow.yml` → edits README markers |
-| Stats, Streak, Top Languages, Trophy | External APIs (vercel/herokuapp), no action needed |
-| Featured project cards (`~/featured-projects`) | GitHub API via `github-readme-stats.vercel.app` |
-
-## Common Edits
-
-- **Add/swap a featured project**: Change `repo=xxx` in the `~/featured-projects` table
-- **Update in-progress work**: Edit the `~/now-building` YAML block (plain text, no automation)
-- **Change card theme**: Replace `theme=tokyonight` — options: `dark`, `radical`, `dracula`, `nord`, `gruvbox`, `onedark`
-- **Fix Streak widget**: Swap `github-readme-streak-stats.herokuapp.com` for `streak-stats.demolab.com` if it's down
-- **Remove blog section**: Delete the entire `~/latest-from-wiki` block; other sections are independent
-- **Change capsule-render header text**: URL-encode Chinese characters (e.g., `%E5%90%AC%E9%A3%8E%E5%90%B9%E9%9B%A8`)
+部署与维护见 SETUP.md，视觉说明见 DESIGN.md。
